@@ -1,4 +1,4 @@
-function onReady() {
+
     
     //add to do form 
     const addToDoForm = document.getElementById('addToDoForm');
@@ -11,7 +11,7 @@ function onReady() {
     addToDoForm.addEventListener('submit', event => {
         event.preventDefault();
         
-        console.log("SUBMIT"); 
+        console.log("click"); 
         
         //get the text 
         let title = newToDoText.value; 
@@ -47,6 +47,3 @@ function addedFeedback(todoName) {
 // example usage
 addedFeedback(todoName);
     }); 
-}
-window.onload = function onReady() {
-};
